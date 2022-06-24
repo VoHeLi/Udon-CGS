@@ -8,7 +8,9 @@ Udon Climbing/Gliding/Swimming System (VR Only)
 
 - Install VRChat SDK (with Udonsharp) if it is not already done, and setup layers by testing your world (Verify every object Networking is in manual except climbingstations)
 - Setup layers 23(Climbable surfaces), 24(Swimming volumes), and 25(Climbing Stations) (Edit -> Project Settings... -> Physics)
-(Look at the image layers.png)
+
+![alt text](https://github.com/VoHeLi/Udon-CGS/blob/main/layers.png?raw=true)
+
 - Import CGS Package and drag and drop Udon CGS System in the scene (Don't change the names of the objects!)
 - If you plan to have more than 40 players in your world, duplicate the climbing stations in the same way it is in the package (1 station for 1 player) (It must have the name : "Climbing Station(##)")
 
@@ -48,6 +50,6 @@ Udon Climbing/Gliding/Swimming System (VR Only)
 
 
 # In game usage :
-	- Climbing : Put your hand on a structure and hold the index trigger
-	- Swimming : The same for water
-	- Gliding : Jump and repress the jump button while in the air, then use your joystick to control the direction
+- Climbing : Put your hand on a structure and hold the index trigger
+- Swimming : The same for water
+- Gliding : Jump and repress the jump button while in the air, then use your joystick to control the direction
