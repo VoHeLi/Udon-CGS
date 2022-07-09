@@ -23,6 +23,9 @@ Udon Climbing/Gliding/Swimming System (VR Only)
 
 - To disable stamina, you can hide it by making the object LPlayerInfo(Under LocalPlayerInfo) unactive and put the stamina cost(or stamina per second) to 0 on the three systems)
 
+# Adding your Audio(1.0.2) :
+	- For climbing, go in ClimbingSystem and then in the Climbing Sound and place a sound that plays each time you touch a wall
+	- For Gliding, put a short looping sound in Glider -> Gliding Sound that plays when you are gliding
 
 # Settings :
 
